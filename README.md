@@ -11,6 +11,14 @@ The traffic capture process ran from September 23 to October 4, 2020, lasted abo
 
 ***Note:*** This dataset is for NON-COMMERCIAL RESEARCH USE ONLY!
 
+
+## Getting the dataset
+
+The dataset is available here:
+
+* [ISTD](https://mega.nz/file/0I4SQCjJ#Wzqp1v7XvnBzhn3jcCC2hcQdcT3k6jzzOmxBvAhOnTc) (10.15 GB, SHA1: C3089F76E952A8218881B6D8A11E214CF091604E)
+
+
 ## Content
 
 ISTD consists of the following two parts:
@@ -32,9 +40,7 @@ ISTD consists of the following two parts:
     - lxx_n60/zz.pcap    # traffic sample captured while typing query (zz) in website (yy).
 ```
 
-## Getting the dataset
-The dataset is available here:
-* [ISTD](https://mega.nz/file/0I4SQCjJ#Wzqp1v7XvnBzhn3jcCC2hcQdcT3k6jzzOmxBvAhOnTc) (10.15 GB, SHA1: C3089F76E952A8218881B6D8A11E214CF091604E)
 
 ## Related repository
+
 * [QAIS](https://github.com/ld258166011/QAIS): the data collection tool that captures network traffic while a query is typed into an incremental search website.
