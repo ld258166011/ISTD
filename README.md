@@ -24,20 +24,22 @@ The dataset is available here:
 ISTD consists of the following two parts:
 
 * Lists of randomly selected queries from the AOL and THUOCL query sets.
-```sh
+
+```
 - query/
   - AOL/
-    - l[xx]_n60.csv          # list of 60 English queries with a length of [xx] characters.
+    - l[xx]_n60.csv          list of 60 English queries with a length of [xx] characters.
   - THUOCL/
-    - l[xx]_n60.csv          # list of 60 Chinese queries with a Pinyin syllable length of [xx] characters.
+    - l[xx]_n60.csv          list of 60 Chinese queries with a Pinyin syllable length of [xx] characters.
 ```
 
 * Traffic samples captured when typing queries in incremental search websites.
-```sh
+
+```
 - pcap/[yy]/
   - AOL/
   - THUOCL/
-    - l[xx]_n60/[zz].pcap    # traffic sample captured while typing query [zz] in website [yy].
+    - l[xx]_n60/[zz].pcap    traffic sample captured while typing query [zz] in website [yy].
 ```
 
 
