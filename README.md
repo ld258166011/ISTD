@@ -45,4 +45,4 @@ ISTD consists of the following two parts:
 
 ## Related repository
 
-* [QAIS](https://github.com/ld258166011/QAIS): the data collection tool that captures network traffic while a query is typed into an incremental search website.
+* [QAIS](https://github.com/ld258166011/QAIS): the data collection tool that captures network traffic while an English or Chinese query is typed into an incremental search website.
