@@ -7,7 +7,7 @@ The Incremental Search Traffic Dataset (**ISTD**) is a collection of 32.4k traff
 * Each language contains 1.8k queries with lengths ranging from 10 to 40 characters (60 queries per length).
 * User's typing rhythm is simulated using the timing model trained on the [136M keystroke dataset](https://userinterfaces.aalto.fi/136Mkeystrokes/).
 
-The traffic capture process ran from September 23 to October 4, 2020, lasted about 12 days.
+The data collection was performed in Chrome (v85, QUIC disabled) running on Windows Server 2019 (version 1809). The traffic capture process ran from September 23 to October 4, 2020, lasted about 12 days.
 
 ***Note:*** This dataset is for NON-COMMERCIAL RESEARCH USE ONLY!
 
@@ -27,17 +27,17 @@ ISTD consists of the following two parts:
 ```sh
 - query/
   - AOL/
-    - lxx_n60.csv        # list of 60 English queries with a length of (xx) characters.
+    - l[xx]_n60.csv        # list of 60 English queries with a length of [xx] characters.
   - THUOCL/
-    - lxx_n60.csv        # list of 60 Chinese queries with a Pinyin syllable length of (xx) characters.
+    - l[xx]_n60.csv        # list of 60 Chinese queries with a Pinyin syllable length of [xx] characters.
 ```
 
 * Traffic samples captured when typing queries in incremental search websites.
 ```sh
-- pcap/yy/
+- pcap/[yy]/
   - AOL/
   - THUOCL/
-    - lxx_n60/zz.pcap    # traffic sample captured while typing query (zz) in website (yy).
+    - l[xx]_n60/[zz].pcap    # traffic sample captured while typing query [zz] in website [yy].
 ```
 
 
